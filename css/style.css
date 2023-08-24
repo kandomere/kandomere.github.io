@@ -1,0 +1,106 @@
+/* Your custom styles */
+
+.carousel-caption {
+    bottom: 35%;
+}
+
+.pog .pricing-card .price .number:after {
+    content: "/пог.м";
+    font-size: 1.5rem;
+
+}
+
+.sizkm .pricing-card .price .number:after {
+
+    font-size: 1.5rem;
+
+}
+
+.siz .pricing-card .price .number {
+    font-size: 4rem;
+
+}
+
+.carousel .carousel-inner .img {
+    background-size: cover;
+
+}
+
+@media (min-width: 992px) {
+    .jarallax-home {
+        background-image: url(../img/home.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+body {
+    background: #ffecc8;
+}
+
+.medical-lp .navbar {
+    background: #ff9627;
+}
+
+@media (min-width: 600px) {
+    .navbar.scrolling-navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.bg-table {
+    /*background: url(../img/beresta.png);*/
+    background-image: url(../img/beresta.png);
+
+    background-repeat: round;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.d-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.d-tr {
+    display: table-row;
+}
+
+.d-td {
+    display: table-cell;
+    text-align: center;
+    border: none;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.d-td:not(.no-p) {
+    padding: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0
+
+}
+
+table, td, th {
+    border: 3px solid #595959;
+}
+
+td, th {
+    padding: 3px;
+    width: 30px;
+    height: 25px;
+}
+
+th {
+    background-color: #7accee !important;
+}
