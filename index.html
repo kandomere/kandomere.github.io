@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-     <meta name="description" content="Товары для бани и сауны" />
-	<meta name="keywords" content="Сауна, баня, камин. Товары для бани. Товары для сауны. Купить камин. Купить сауну, Петербург" />
+    <meta name="description" content="Товары для бани и сауны"/>
+    <meta name="keywords"
+          content="Сауна, баня, камин. Товары для бани. Товары для сауны. Купить камин. Купить сауну, Петербург"/>
     <title>Вепсский Дом</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -87,6 +88,37 @@
 <body class="medical-lp restaurant-lp">
 
 <!--Navigation & Intro-->
+<div class="container">
+    <div class="modal fade" id="contactform" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="col-md-12 my-2 mx-2 ">
+                    <h2 class="h1-responsive title modal-title border-bottom border-dark font-weight-bold">Закажите
+                        обратный звонок</h2>
+                    <form class="formmargin" id="contact-form" name="contact-form" action="mail.php" method="POST"
+                          onsubmit="return validateForm()">
+                        <div class="form-row font-weight-bolder">
+                            <div class="col-md-6 md-form">
+                                <input type="text" id="name" name="name" class="form-control" required>
+                                <label for="name">Имя</label>
+                            </div>
+                            <div class="col-md-6 md-form">
+                                <input type="text" id="phone" name="phone" class="form-control" required>
+                                <label for="phone">Телефон</label>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="center-on-small-only">
+                        <button class="btn btn-primary" type="submit" onclick="validateForm()">Отправить</button>
+                        <button type="button" class="btn btn-primary " data-dismiss="modal">Закрыть</button>
+                    </div>
+                    <div class="status" id="status"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <header>
 
     <!--Navbar-->
@@ -152,11 +184,15 @@
                                     ПОЛОК ЛИПА</h2>
                                 <h4 class="red-text">Цены актуальны на август 2023</h4>
                                 <h3>Доставка по СПБ и ЛО</h3>
-                                <a href="#contacts" data-offset="100" class="btn btn-danger btn-rounded">Оставить
-                                    заявку</a>
+
+                                <button data-dismiss="modal" class="btn btn-danger btn-md rounded w-25"
+                                        data-toggle="modal" data-target="#contactform">Оставить
+                                    заявку
+                                </button>
                             </div>
                         </div>
                     </div>
+
                     <div class="d-flex justify-content-center">
                         <div class="col-md-4 text-white">
                             <ul>
@@ -207,7 +243,7 @@
         <div class="row mt-5 mb-4">
             <div class="col-md-12">
                 <div class="divider-new">
-                    <h3 class="text-center text-uppercase font-weight-bold mr-3 ml-3 wow fadeIn" data-wow-delay="0.2s">
+                    <h3 class="text-center text-uppercase font-weight-bold mr-3 ml-3" data-wow-delay="0.2s">
                         ФОТО ПРОДУКЦИИ</h3>
                 </div>
             </div>
@@ -217,7 +253,7 @@
             <div class="row text-center mr-2 ml-2 mt-3">
 
                 <!--First column-->
-                <div class="col-lg-4 col-md-12 mb-4 wow fadeIn">
+                <div class="col-lg-4 col-md-12 mb-4">
 
                     <!--Card-->
                     <div class="card card-cascade wider">
@@ -247,7 +283,7 @@
                     <!--/.Card-->
 
                 </div>
-                <div class="col-lg-4 col-md-12 mb-4 wow fadeIn">
+                <div class="col-lg-4 col-md-12 mb-4">
 
                     <!--Card-->
                     <div class="card card-cascade wider">
@@ -277,7 +313,7 @@
                     <!--/.Card-->
 
                 </div>
-                <div class="col-lg-4 col-md-12 mb-4 wow fadeIn">
+                <div class="col-lg-4 col-md-12 mb-4">
 
                     <!--Card-->
                     <div class="card card-cascade wider">
@@ -307,7 +343,7 @@
                     <!--/.Card-->
 
                 </div>
-                <div class="col-lg-4 col-md-12 mb-4 wow fadeIn">
+                <div class="col-lg-4 col-md-12 mb-4">
 
                     <!--Card-->
                     <div class="card card-cascade wider">
@@ -340,7 +376,7 @@
                 <!--/First column-->
 
                 <!--Second column-->
-                <div class="col-lg-4 col-md-6 mb-4 wow fadeIn">
+                <div class="col-lg-4 col-md-6 mb-4">
 
                     <!--Card-->
                     <div class="card card-cascade wider">
@@ -371,7 +407,7 @@
                 <!--/Second column-->
 
                 <!--Third column-->
-                <div class="col-lg-4 col-md-6 mb-4 wow fadeIn">
+                <div class="col-lg-4 col-md-6 mb-4">
 
                     <!--Card-->
                     <div class="card card-cascade wider">
@@ -421,7 +457,7 @@
                 <div class="row mb-5 pb-3">
 
                     <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-6 mb-4">
 
                         <!--Card Light-->
                         <div class="card">
@@ -451,7 +487,7 @@
                         <!--/.Card Light-->
 
                     </div>
-                    <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-6 mb-4">
 
                         <!--Card Light-->
                         <div class="card">
@@ -484,7 +520,7 @@
                     <!--Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-6 mb-4">
 
                         <!--Card Light-->
                         <div class="card">
@@ -517,7 +553,7 @@
                     <!--Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 wow fadeIn" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-6 mb-4">
 
                         <!--Card Light-->
                         <div class="card">
@@ -818,7 +854,7 @@
                                 <i class="fas fa-phone"></i>
                             </a>
                             <a class="text-white text-decoration-none fw-bold"
-                                                             href="tel:+79214384598">+7 921 438-45-98</a>
+                               href="tel:+79214384598">+7 921 438-45-98</a>
 
                         </div>
                         <div class="col-md-12">
@@ -826,8 +862,8 @@
                                 <i class="fas fa-envelope"></i>
                             </a>
                             <a class="text-white text-decoration-none fw-bold"
-                                                             href="mailto:zakaz@vepvagonka.ru">email:
-                        zakaz@vepvagonka.ru</a>
+                               href="mailto:zakaz@vepvagonka.ru">email:
+                                zakaz@vepvagonka.ru</a>
                         </div>
                     </div>
                 </div>
@@ -873,6 +909,7 @@
 
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
+<script src="js/contactform.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
