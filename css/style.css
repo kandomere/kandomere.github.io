@@ -154,3 +154,6 @@ th {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
+.font-name {
+    font-size: 60px;
+}
