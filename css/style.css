@@ -104,3 +104,53 @@ td, th {
 th {
     background-color: #7accee !important;
 }
+#vagonka {
+	border-top: 88px solid transparent;
+	margin-top: -55px;
+	padding: 15px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+#polok {
+	border-top: 88px solid transparent;
+	margin-top: -55px;
+	padding: 15px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+#nalichnik {
+	border-top: 88px solid transparent;
+	margin-top: -55px;
+	padding: 15px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+#plintus {
+	border-top: 88px solid transparent;
+	margin-top: -55px;
+	padding: 15px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+#gribok {
+	border-top: 88px solid transparent;
+	margin-top: -55px;
+	padding: 15px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+#ugolok {
+	border-top: 88px solid transparent;
+	margin-top: -55px;
+	padding: 15px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
