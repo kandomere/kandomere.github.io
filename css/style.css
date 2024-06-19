@@ -1,3 +1,18 @@
 .top-nav-collapse {
     background-color: #a66400;
 }
+
+@media only screen and (max-width: 500px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #a66400;
+    }
+}
+
+.fixcontact {
+    width: 235px;
+    height: 113px;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+
+}
