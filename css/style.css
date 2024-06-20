@@ -1,10 +1,16 @@
 .top-nav-collapse {
-    background-color: #a66400;
+    background-color: #7c2f24;
+}
+.footercolor {
+    background-color: #7c2f24;
+}
+.bannercolor {
+    background-color: #f57c00f0;
 }
 
 @media only screen and (max-width: 500px) {
     .navbar:not(.top-nav-collapse) {
-        background: #a66400;
+        background: #7c2f24;
     }
 }
 
@@ -15,4 +21,8 @@
     position: fixed;
     right: 0;
 
+}
+
+.contacktrow {
+    padding-right: 0;
 }
