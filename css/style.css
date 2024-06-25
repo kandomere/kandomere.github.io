@@ -15,8 +15,8 @@
 }
 
 .fixcontact {
-    width: 235px;
-    height: 113px;
+    width: 279px;
+    height: 122px;
     z-index: 1;
     position: fixed;
     right: 0;
@@ -25,4 +25,28 @@
 
 .contacktrow {
     padding-right: 0;
+}
+.boldnav {
+    font-size: 23px; font-weight: bolder;
+}
+
+@media only screen and (min-width: 500px) {
+    .mrnav {
+        margin-left: 167px;
+    }
+}
+
+.navbar .dropdown-menu a {
+    padding: 4px;
+
+}
+
+.dropdown-menu {
+    border: none;
+    background-color: #7c2f24;
+
+}
+.navbar .dropdown-menu a {
+
+    color: #fff;
 }
