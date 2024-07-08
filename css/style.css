@@ -66,8 +66,20 @@
 
 .divider-new:before {
     margin: 0;
+    height: 3px;
+    background: #b9b9b9;
 }
 
 .divider-new:after {
     margin: 0;
+    height: 3px;
+    background: #b9b9b9;
+}
+
+.badge {
+    font-size: 100%;
+    color: #000 !important;;
+}
+.phome {
+    margin-bottom: 0rem;
 }
