@@ -1,9 +1,11 @@
 .top-nav-collapse {
     background-color: #7c2f24;
 }
+
 .footercolor {
     background-color: #7c2f24;
 }
+
 .bannercolor {
     background-color: #f57c00f0;
 }
@@ -26,8 +28,10 @@
 .contacktrow {
     padding-right: 0;
 }
+
 .boldnav {
-    font-size: 23px; font-weight: bolder;
+    font-size: 23px;
+    font-weight: bolder;
 }
 
 @media only screen and (min-width: 500px) {
@@ -46,6 +50,7 @@
     background-color: #7c2f24;
 
 }
+
 .navbar .dropdown-menu a {
 
     color: #fff;
@@ -57,6 +62,7 @@
         display: none;
     }
 }
+
 @media only screen and (max-width: 992px) {
     .workshidden {
 
@@ -80,18 +86,19 @@
     font-size: 100%;
     color: #000 !important;;
 }
+
 .phome {
     margin-bottom: 0rem;
 }
 
 @media (min-width: 991px) {
-  .homeworks {
-    display: none;
-  }
+    .homeworks {
+        display: none;
+    }
 }
 
-@media (max-width: 990px) {
-  .homeworks {
-
-  }
+@media (max-width: 992px) {
+    .homeworks1 {
+        display: none;
+    }
 }
